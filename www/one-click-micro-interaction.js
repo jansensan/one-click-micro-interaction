@@ -7,6 +7,7 @@ var dragStart = -1;
 var dragEnd = -1;
 var dragDuration = -1;
 
+var numTriggers = 0;
 var triggerInterval;
 var isTriggeringAvailable = true;
 
@@ -50,7 +51,7 @@ function draw() {
 
 // methods definitions
 function createPoints() {
-  var numPoints = getRandomInRange(16, 32);
+  var numPoints = getRandomInRange(16, 32) + (numTriggers * 2);
   for (let i = 0; i < numPoints; i++) {
     var point = {
       x: mouseX + getRandomInRange(-2, 2),
@@ -82,6 +83,7 @@ function trigger() {
   }
   startInterval();
   createPoints();
+  numTriggers++;
 }
 
 
