@@ -1,17 +1,13 @@
 {
   "name": "one-click-micro-interaction",
-  "version": "0.0.1",
-  "description": "One-click micro-interaction project",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "A one-click micro-interaction experience",
+  "version": "1.0.0",
+  "author": "Mat Janson Blanchet <mat.jb@jansensan.net> (https://jansensan.net)",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jansensan/one-click-micro-interaction.git"
   },
-  "author": "Mat Janson Blanchet <mat.jb@jansensan.net> (https://jansensan.net)",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jansensan/one-click-micro-interaction/issues"
   },
