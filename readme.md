@@ -2,7 +2,7 @@
 
 Sources for a one-click micro-interaction experience.
 
-[View the experience](https://projects.jansensan.net/one-click-micro-interaction/) (ensure to enable pop-ups).
+[View the experience](https://one-click.jansensan.net/) (ensure to enable pop-ups).
 
 
 ## Context
